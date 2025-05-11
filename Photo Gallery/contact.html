@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="/CSS/contact.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="/Photo Gallery/index.html">Home</a></li>
+        <li><a href="/Photo Gallery/gallery.html">Gallery</a></li>
+        <li><a href="/Photo Gallery/about.html">About</a></li>
+        <li><a href="/Photo Gallery/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <h1>Contact Us</h1>
+
+  <section>
+    <p>
+      We will  love to hear from you. Whether you have a question, would like to book a session, or just want to say hello, feel free to get in touch.
+    </p>
+
+    <form action="submit_form.php" method="POST">
+      <div class="form-group">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+      </div>
+
+      <div class="form-group">
+        <button type="submit">Send Message</button>
+      </div>
+    </form>
+
+    <div class="contact-info">
+      <p>Phone: <a href="tel:234+08037646373">234+08037646373</a></p>
+      <p>Email: <a href="mail:photo@gmail.com">photo@gmail.com</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 | All rights reserved</p>
+  </footer>
+</body>
+</html>

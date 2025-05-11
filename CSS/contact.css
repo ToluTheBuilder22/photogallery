@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+  background-color: #1a1a2e;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+nav ul li{
+    margin: 0 15px;
+
+}
+nav ul li a {
+    color: #d4af37;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+  color: #ffffff;
+}
+
+
+h1 {
+  text-align: center;
+  margin: 30px 0;
+  color: #1a1a2e;
+}
+
+
+section {
+  max-width: 800px;
+  margin: auto;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+section p {
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.form-group button {
+  padding: 10px;
+  border: none;
+  background-color: #d4af37;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  justify-content: center;
+}
+
+.form-group button:hover {
+  background-color: #b38c2e;
+}
+
+
+.contact-info {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.contact-info a {
+  text-decoration: none;
+  color: #d4af37;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+
+footer {
+  text-align: center;
+  padding: 15px 0;
+  background-color: #1a1a2e;
+  color: #fff;
+  margin-top: 40px;
+  position: fixed;
+}
